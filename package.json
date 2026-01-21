@@ -1,10 +1,28 @@
 {
-  "name": "Assigment4",
+  "name": "assigment4",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paranoia3/Web2Assigment4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/paranoia3/Web2Assigment4/issues"
+  },
+  "homepage": "https://github.com/paranoia3/Web2Assigment4#readme",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  }
 }
