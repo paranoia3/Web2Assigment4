@@ -31,7 +31,7 @@ const blogSchema = new mongoose.Schema({
 const Blog = mongoose.model('Blog', blogSchema);
 
 app.get('/', (req, res) => {
-    res.send('Server is running! Открой index.html, чтобы пользоваться блогом.');
+    res.send('Server is running! Open the index.html file in browser');
 });
 
 app.get('/blogs', async (req, res) => {
